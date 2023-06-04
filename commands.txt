@@ -1,0 +1,23 @@
+Installing playwright using npm
+- npm init playwright@latest
+
+Check installed version of playwright
+-> npm playwright -v
+
+Run the test with headless
+-> npx playwright test
+
+Run the test with headed mdoe
+-> npx playwright test --headed
+
+Show Reports
+-> npx playwright show-report
+
+Run specific Tests
+-> npx playwright test MyTest.spec.js
+
+Run on specific browser
+-> npx playwright test MyTest.spec.js --project=browser
+
+Run on specific browser + Debug Mode:
+-> npx playwright test MyTest.spec.js --project=browser --debug
