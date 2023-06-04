@@ -21,3 +21,6 @@ Run on specific browser
 
 Run on specific browser + Debug Mode:
 -> npx playwright test MyTest.spec.js --project=browser --debug
+
+Record Test Automatically
+-> npx playwright codegen / use npx playwright codegen --help
